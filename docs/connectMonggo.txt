@@ -1,0 +1,16 @@
+1, Connect Mongodb Old
+ 
+2, Connect Mongodb New
+
+3, Count Connect Mongodb
+
+4, See Connect over load: dung Module OS + process
+
+5, Can should on/off server always ?
+-> No. Because mongoose use poolSize()
+
+6, if  > poolSize 
+-> Khong vuot qua, xep hang doi cac yeu cau xu ly xong, dau ket noi free, cho ket noi su dung
+vd: 50 dang connect, neu 51 toi thi phai doi, cho 1 dau 50 bung ra thi 51 connect
+
+7, notification when server overload connect ?
