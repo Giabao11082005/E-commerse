@@ -1,0 +1,8 @@
+1, What is .env ?
+.env: save sensitive information (API_KEY, PORT)
+
+2, What is levels .env ?
+-> 3 levels
+
+2, .env vs config()
+-> 
